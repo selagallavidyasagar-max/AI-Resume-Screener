@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Resume Screener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Parallax Gradient Background -->
+<div class="parallax-bg"></div>
+
+<section class="hero">
+    <h1>AI Resume Screener</h1>
+    <p>Smart Matching. Clean Design.</p>
+</section>
+
+<section class="content">
+
+    <div class="card">
+        <label>Job Description</label>
+        <textarea id="jobDesc" placeholder="Paste job description..."></textarea>
+
+        <label>Resume Text</label>
+        <textarea id="resumeText" placeholder="Paste resume text..."></textarea>
+
+        <button onclick="analyzeResume()">Analyze Match</button>
+    </div>
+
+    <div class="result-card">
+        <h2>Match Score</h2>
+        <div id="score">0%</div>
+        <p id="keywords"></p>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
