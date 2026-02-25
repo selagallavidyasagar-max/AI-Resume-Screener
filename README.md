@@ -1,10 +1,10 @@
-#🤖 AI-Powered Resume Analyzer
+#🤖 **AI-Powered Resume Analyzer**
 An intelligent tool that leverages Natural Language Processing (NLP) and Artificial Intelligence to evaluate resumes, extract key insights, and provide actionable suggestions for job seekers and HR teams.
 
-#🎯 Project Overview
+#🎯 **Project Overview**
 This project aims to streamline the recruitment process by automatically analyzing uploaded resumes and matching them against specific job descriptions. It goes beyond simple keyword matching by using machine learning to understand the context of a candidate's experience and skills.
 
-#🌟 Key Features
+#🌟 **Key Features**
 Multi-Format Support: Upload resumes in PDF or DOCX format.
 
 Skill Extraction: Automatically identifies technical and soft skills from the document.
